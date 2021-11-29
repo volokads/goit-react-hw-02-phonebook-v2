@@ -1,11 +1,19 @@
 import './App.css';
+import { Component } from 'react';
+import {Form} from './components/Form/Form.jsx'
 
-function App() {
-  return (
-    <div className="App">
-
-    </div>
-  );
+class App extends Component {
+  render ()
+  {
+    return (
+      <div className="App">
+        <Form
+        
+        />
+      </div>
+    )
+  }
+  
 }
 
 export default App;
