@@ -32,6 +32,7 @@ class Form extends Component {
                     onChange={this.formChange}
                     autoComplete="off"
                 />
+                <label>Phone number</label>
                 <input
                     id={nanoid()}
                     type="text"
