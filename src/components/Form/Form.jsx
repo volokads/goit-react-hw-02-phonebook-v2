@@ -19,9 +19,10 @@ class Form extends Component {
 
     render() {
         return (
-            <form>
-                <label>Name</label>
+            <form className="SearchForm">
+                <label className="SearchForm__Label">Name</label>
                 <input
+                    className="SearchForm__Item"
                     id={nanoid()}
                     type="text"
                     name="name"
@@ -32,8 +33,9 @@ class Form extends Component {
                     onChange={this.formChange}
                     autoComplete="off"
                 />
-                <label>Phone number</label>
+                <label className="SearchForm__Label">Phone number</label>
                 <input
+                    className="SearchForm__Item"
                     id={nanoid()}
                     type="text"
                     name="number"
@@ -44,7 +46,7 @@ class Form extends Component {
                     onChange={this.formChange}
                     autoComplete="off"
                 />
-                <button type="submit" onClick={this.formSubmit}>Add contact</button>
+                <button className="Btn" type="submit" onClick={this.formSubmit}>Add contact</button>
             </form>
 
         )

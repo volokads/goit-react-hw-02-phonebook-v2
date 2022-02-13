@@ -57,7 +57,7 @@ class App extends Component {
           <h2>PhoneBook</h2>
           <Form onSubmit={ this.forSubmit}/>
         </div>
-        <div>
+        <div className="Contacts">
           <h2>Contacts</h2>
           <Filter
             value={this.state.filter}

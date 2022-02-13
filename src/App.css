@@ -1,3 +1,62 @@
 .App {
   text-align: center;
 }
+ul{
+  padding-left:0;
+}
+.SearchForm{
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px ;
+  width: 50vh;
+  border: 1px solid black
+}
+.SearchForm__Label{
+  display: flex;
+  align-items: flex-start;
+  margin: 0 0 0 20px;
+  padding: 5px;
+}
+.SearchForm__Item{
+  display: flex;
+  align-items: flex-start;
+  margin: 5px 10px 10px 20px;
+  padding: 5px;
+  width: 200px;
+}
+.SearchForm__Item:focus{
+  outline-color: aqua;
+}
+.Btn{
+  margin-left: 20px;
+  width: 20%;
+  height:26px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+.Btn:hover{
+  background-color: burlywood;
+}
+.Contacts{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+.ContactForm__Label{
+  display: flex;
+  align-items: flex-start;
+  margin: 0 0 0 20px;
+  padding: 5px;
+}
+.ContactForm__Item{
+  display: flex;
+  align-items: flex-start;
+  margin: 5px 10px 10px 0px;
+  padding: 5px;
+  width: 200px;
+}
+.ContactForm__Item:focus{
+  outline-color: aqua;
+}
